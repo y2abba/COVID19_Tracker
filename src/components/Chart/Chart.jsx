@@ -9,13 +9,15 @@ const Chart = ({data: {confirmed, deaths, recovered}, country}) => {
 
     useEffect(() => {
         const fetchAPI = async () => {
-            setDailyData(await fetchDailyData());
+            const initialDailyData = await fetchDailyData();
+
+            setDailyData(initialDailyData);
         }
         fetchAPI();
     }, []); //makes this act like a component because of the [], so it acts only once
 
     const lineChart = (
-        dailyData.length
+        dailyData[0]
             ? (
                 <Line
                     data={{
