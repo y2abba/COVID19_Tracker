@@ -1,3 +1,6 @@
+![alt text](https://github.com/y2abba/COVID19_Tracker/blob/master/src/images/screensnip%20of%20program.png?raw=true)
+
+I made this COVID 19 Tracker Application by following a guide made by Javascript Mastery. Created with React, and used Hooks, Charts and Material.UI to implement website features.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
